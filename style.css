@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    color: rgb(8, 8, 8);
+    font-weight: bolder;
+    list-style: none;
+    font-size: 13px;
+    position: relative;
+    top: 5px;   
+}
+.one{
+    text-decoration: none;
+}
+nav{
+    height:25px;
+    background-color: rgba(189, 184, 184, 0.281);
+}
+ul{    
+    width: 60vw;
+    height: 25px;
+    /* box-shadow: 10px 10px 10px grey; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    position: relative;
+    left: 400px;
+    /* top: 8px; */
+    border-radius: 05px;      
+}
+li:hover{
+    color: rgb(238, 138, 56);
+    font-weight:bolder ;
+}
+
+.img1{
+    
+    display: flex;
+    justify-content: center;
+}
+.pic1{
+    height: 80px;
+}
+.pic2{
+    height: 20px;
+}
+.pic3{
+    width: 300px;
+}
+input{
+    width: 700px;
+    height: 45px;
+    border-radius: 5px;
+    background-color:rgba(233, 229, 229, 0.281) ;
+    
+}
+.search{
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.text{
+    border: 10px solid rgba(3, 3, 3, 0.281);
+    direction: none;
+}
+.cart{
+    margin: 40px 30px;
+}
+.img2{
+    margin: 8px 38px;
+    
+}
+.offer{
+    margin: 8px 5px;
+}
+.search_button{
+    position: relative;
+    right: 46.5px;
+    height: 44.9px;
+    margin-top: 2.1px;
+    border-radius: 5px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+
+}
+.display2{
+    height: 40vh;
+    width: 70vw;
+}
+.catagory{
+    background-color: rgb(245, 235, 240);
+    height: 40vh;
+    position: relative;
+    
+}
+p{
+    margin: 4px 5px;
+    height: 27.8px;
+    font-size: 18px;
+    font-family: 'Koh Santepheap', cursive;
+    font-weight: bold;
+}
+p:hover{
+    color: rgb(238, 138, 56);
+}
+.container3{
+    display: flex;
+    justify-content: center;
+}
+.dmart{
+    width: 100vw;
+    box-shadow: 10px 10px 10px white;     
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+}
+.dmart_box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.box1{
+    
+    height: 50px;
+    padding: 10px 35px;
+    position: relative;
+    top: -200px;
+    box-shadow: 10px 10px 5x rgb(255, 244, 244);
+}
+
+.box1 p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 253, 247);
+    width: 250px;
+    height:50px ;
+    border-radius: 25px;
+}
+.box1 p:hover{
+    color: rgb(238, 138, 56);
+    font-size: 30px;
+}
+.container5{
+    display: flex;
+    justify-content: space-between;
+    font-size:35px;
+    background-color: rgb(253, 246, 246);
+    padding: 0px 30px;
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    border: 2px solid black;
+    border: 4px;
+    font-weight: bolder;
+}
+button:hover{
+    width: 200px;
+    font-size: 20px;
+    color:rgb(238, 138, 56); 
+    border-radius: 10px;
+}
+.two{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    height: 400px;
+    width: 200px;
+    margin: 0px 30px;   
+}
+.two:hover{
+    color: rgb(238, 138, 56);
+    font-weight: bolder;
+}
+.flash{
+    height: 200px;  
+}
+
+span:hover{
+    font-size: 30px;
+    color: darkorange;
+}
+.flashsell{
+    position: relative;
+    left: 380px;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+}
+.left2{
+    font-size: 35px;
+}
+.right2{
+    display: flex;
+    align-items: center;
+}
+.container6{
+    
+    display: flex; 
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(253, 246, 246);
+    padding: 0px 30px;
+}
+.three_pic{
+    width: 300px;
+    height: 205px;
+    border: 3px solid black;
+}
+.three{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.collections{
+
+    display: grid;
+    grid-template-columns:repeat(4,300px) ;
+    grid-template-rows: 2;
+    justify-content: center;
+}
+.three:hover{
+    color:rgb(238, 138, 56) ;
+    font-size: 30px;
+}
